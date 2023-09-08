@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
