@@ -7,10 +7,8 @@ const Header = () => {
         <div>
             <nav className={styles.navbar}>
                 <div className={styles.item}><Link to={"/main"}>Main</Link></div>
-                <div className={styles.item}><Link to={"/component"}>Component</Link></div>
-                <div className={styles.item}><Link to={"/component"}>Component</Link></div>
-                <div className={styles.item}><Link to={"/component"}>Component</Link></div>
-                <div className={styles.item}><Link to={"/component"}>Component</Link></div>
+                <div className={styles.item}><Link to={"/trading"}>Trading</Link></div>
+                <div className={styles.item}><Link to={"/statistics"}>Statistics</Link></div>
             </nav>
         </div>
     )
